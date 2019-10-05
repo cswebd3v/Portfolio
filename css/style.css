@@ -25,6 +25,7 @@ body, html {
 	font-family: 'Roboto Slab', Serif;
 }
 
+
 h1{
 	font-family: 'Ruda', Sans-Serif;
 }
@@ -33,7 +34,6 @@ h1{
 main {
 	width: 100%;
 	height: 100%;
-	margin-bottom: 100%;
 }
 
 a {
@@ -43,7 +43,6 @@ a {
 /* fade in effects */
 .slide1{
 	text-decoration-line: underline;
-	text-decoration-style: wavy;
 	text-decoration-color: red;
 }
 
@@ -53,7 +52,6 @@ a {
 
 strong {
 	text-decoration: underline;
-	text-decoration-style: wavy;
 	text-decoration-color: red;
 	line-height: 1.7;
 }
@@ -96,7 +94,6 @@ button:hover {
 main > h1 {
 	color: #091D34;
 	text-decoration-line: underline;
-	text-decoration-style: wavy;
 	text-decoration-color: red;
 	margin-top: 10%;
 	line-height: 1.7;
@@ -109,7 +106,7 @@ main > h1 {
 	height: 40%;
 	margin: 0 auto;
 	text-align: center;
-	margin-bottom: 10px;
+	margin-bottom: 20%;
 	margin-top: 25px;
 }
 
@@ -119,16 +116,23 @@ main > h1 {
 }
 
 .preview {
-	width: 90%;
+	width: 70%;
 	height: 40%;
 	margin: 0 auto;
 	text-align: left;
 	z-index: 35;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 
 
 .hp {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.rts {
 	margin: 0 auto;
 	width: 100%;
 }
@@ -156,6 +160,7 @@ main > h1 {
 	font-size: 11px;
 }
 
+
 h1 {
 	text-align: center;
 }
@@ -170,11 +175,13 @@ h2 {
 	justify-content: space-around;
 }
 
+.footer {
+	margin-bottom: 15px;
+}
 
-footer > h2 {
+.footer > h2 {
 	color: #091D34;
 	text-decoration-line: underline;
-	text-decoration-style: wavy;
 	text-decoration-color: red;
 	margin-bottom: 15px;
 }
@@ -215,15 +222,22 @@ footer > h2 {
 	color: #091D34;
 }
 
-.slide1 {
-	margin-left: 30%;
+
+
+@media screen and (max-width: 500px) {
+	.project {
+		margin-bottom: 100%;
+		}
+
+	
 }
 
-footer {
-	margin-top: 10%;
-	margin-bottom: 10px;
+@media screen and (max-width: 350px) {
+	.project {
+		margin-bottom: 155%;
+	}
+	
 }
-
 
 
 
@@ -234,8 +248,8 @@ main {
 		margin-bottom: 0;
 }
 
-footer {
-	margin-top: 75px;
+.bio {
+	margin-bottom: 35%;
 }
 
 }
@@ -278,12 +292,10 @@ footer {
 
 .slide1 {
 	font-size: 3em;
-	margin-left: 30%;
 }
 
 .slide2 {
 	font-size: 2em;
-	margin-right: 10%;
 }
 
 .navbar * {
@@ -294,6 +306,7 @@ footer {
 /* desktop about.html specific styles*/
 .bio {
 	width: 60%;
+	margin-bottom: 15%;
 }
 
 .bio > p {
