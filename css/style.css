@@ -281,6 +281,8 @@ main {
 	height: 300px;
 	width: 300px;
 	border: 1px solid black;
+	box-shadow: 3px 3px #609CE1;
+	margin-bottom: 15px;
 }
 
 .right-pane {
