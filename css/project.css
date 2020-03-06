@@ -286,7 +286,7 @@ h2 {
 
 
 /*for screens between 400px and 1050px*/
-@media screen and (min-width: 374px) {
+@media screen and (min-width: 374px) and (max-width: 1049px) {
 	
 main {
 		margin-bottom: 0;
@@ -314,46 +314,8 @@ button {
 /*for screens 1050px and larger*/
 @media screen and (min-width: 1000px) {
 
-.left-pane {
-	width: 33.3%;
-	height: 100%;
-	float: left;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	color: #091D34;
-	border-right: 2px solid #609CE1;
-}
-
-.left-pane > img {
-	height: 300px;
-	width: 300px;
-	border: 1px solid black;
-	box-shadow: 3px 3px #609CE1;
-	margin-bottom: 15px;
-}
-
-.right-pane {
-	width: 66.6%;
-	height: 60%;
-	position: relative;
-	top: 20%;
-	float: right;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-around;
-	text-align: center;
-}
-
-.slide1 {
-	font-size: 3em;
-}
-
-.slide2 {
-	font-size: 2em;
+.project {
+	width: 70%;
 }
 
 .navbar * {
@@ -361,15 +323,7 @@ button {
 
 }
 
-/* desktop about.html specific styles*/
-.bio {
-	width: 60%;
-	margin-bottom: 15%;
-}
 
-.bio > p {
-	font-size: 24px;
-}
 
 
 }
