@@ -40,15 +40,8 @@ a {
 	color: #609CE1;
 }
 
-/* fade in effects */
-.slide1{
-	text-decoration-line: underline;
-	text-decoration-color: red;
-}
 
-.hidden {
-	display: none;
-}
+
 
 strong {
 	text-decoration: underline;
@@ -84,17 +77,8 @@ button:hover {
 }
 
 
-/*about.html specific styles*/
-.bio > p {
-	line-height: 2;
-}
 
-.bio {
-	color: #091D34;
-	width: 75%;
-	margin: 0 auto;
-	margin-top: 15%;
-}
+
 
 main > h1 {
 	color: #091D34;
@@ -104,7 +88,7 @@ main > h1 {
 	line-height: 1.7;
 }
 
-/*projects.html specific styles*/
+
 
 .project {
 	width: 70%;
@@ -116,12 +100,14 @@ main > h1 {
 }
 
 ul {
-	list-style-image: url(../images/cup-small.png);
+	list-style: none;
 }
 
-.project > ul > li {
-	position: relative;
-	top: -100px;
+.proj-li {
+	background: url(../images/cup-small.png);
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	margin-top: 10px;
 }
 
 .preview {
@@ -155,7 +141,42 @@ ul {
 	margin: 10px;
 }
 
-/*about.html & projects.html shared styles */
+#fixedbutton {
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	height: 25px;
+	width:55px;
+	background-color: #ffffff;
+	border: 1px solid #091D34;
+	color: #091D34;
+	text-align: center;
+	border-radius: 5px;
+}
+
+#fixedbutton:hover {
+	color: #091D34 !important;
+	background-color: #ffffff;
+	font-weight: 700 !important;
+	border-radius: 25px;
+	letter-spacing: 3px;
+	background: none;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+}
+
+#fixedbutton:active {
+	background-color: #ffffff;
+}
+
+#fixedbutton:focus {
+	background-color: #ffffff;
+}
+
+
+
 .navbar {
 	list-style: none;
 	text-align: center;
@@ -257,6 +278,7 @@ h2 {
 @media screen and (max-width: 350px) {
 	.project {
 		margin-bottom: 155%;
+		width: 100%;
 	}
 	
 }
@@ -272,6 +294,18 @@ main {
 
 .bio {
 	margin-bottom: 35%;
+}
+
+.project {
+	width: 100%;
+	min-height: 60%;
+}
+
+
+
+button {
+	font-size: 0.75rem;
+	padding: 0.75rem;
 }
 
 }
