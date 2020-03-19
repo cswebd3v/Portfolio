@@ -83,6 +83,10 @@ button:hover {
 	cursor: pointer;
 }
 
+.aboutButton, .projectsButton, .startButton {
+	font-size: 18px;
+}
+
 #par-link {
 	border: none;
 	background: #ffffff;
