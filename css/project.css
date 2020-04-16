@@ -64,6 +64,19 @@ button {
 	text-decoration: underline;
 	text-decoration-color: red;
 }
+.button {
+	border: none;
+	background: #ffffff;
+	color: #091D34 !important;
+	font-weight: 100;
+	padding: 20px;
+	text-transform: uppercase;
+	border-radius: 6px;
+	display: inline-block;
+	transition: all 0.3s ease 0s;
+	text-decoration: underline;
+	text-decoration-color: red;
+}
 
 button:hover {
 	color: #091D34 !important;
@@ -75,6 +88,17 @@ button:hover {
 	transition: all 0.3s ease 0s;
 	cursor: pointer;
 }
+.button:hover {
+	color: #091D34 !important;
+	font-weight: 700 !important;
+	letter-spacing: 3px;
+	background: none;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+}
+
 
 
 
@@ -304,7 +328,7 @@ main {
 
 
 
-button {
+.button {
 	font-size: 0.75rem;
 	padding: 0.75rem;
 }
